@@ -1,0 +1,71 @@
+body{
+    background: url('img/board.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 500px;
+}
+
+.intro{
+    text-align: center;
+    padding: 15px;
+    width: 300px;
+    margin: 155px auto;
+    color: #fffcf8;
+}
+
+form{
+    display: inline-block;
+}
+
+input{
+    padding: 2px 7.5px;
+    background-color: lightsalmon ;
+    color: #fffcf8;
+}
+
+#button{
+    background-color:  #fffcf8;
+    color: lightsalmon;
+    border-radius: 15px;
+    text-align: center;
+    display: inline-block;
+    padding: 2px 7.5px ;
+    margin: 1px 2.5px;
+}
+
+#button:hover{
+    background-color: lightsalmon ;
+    color: #fffcf8;
+    cursor: pointer;
+    transition: .5s;
+    
+}
+
+ol{padding-left: 15px;}
+
+ol li {padding: 5px; color: rgb(212, 95, 48);}
+
+ol li:nth-child(even){color: rgb(92, 43, 206);}
+
+.strike{text-decoration: line-through;}
+
+ol li:hover{cursor: pointer;}
+
+.delete {display: none;}
+
+ol li > X {
+    background: none;
+    border: none;
+    float: Right;
+    color: rgb(9, 99, 9);
+    font-weight: 800;
+}
+
+ol li > crossOutButton {
+    background: none;
+    border: none;
+    float: Right;
+    color: rgb(9, 99, 9);
+    font-weight: 800;
+}
+
